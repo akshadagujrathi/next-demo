@@ -1,0 +1,94 @@
+
+/* h2 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+} */
+.h2{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 62px;
+}
+.ban_images:before {
+    content: '';
+    position: absolute;
+    background-image: url('./images/layer.png') !important;
+}
+.feature-background:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    background-image: url('../app/images/travelpt.png');
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0%;
+    width: 817px;
+    height: 600px;
+}
+ .feature-background, .banner{
+    padding: 50px 20px;
+}
+section.brand {
+    padding: 50px 20px !important;
+}
+.block {
+   border: 1px solid #ff57222b;;
+    padding: 20px;
+    border-radius: 26px;
+}
+.pink-text{
+    color:#F85E9F;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.count{
+    color: #FF5722;
+    font-weight: bold;
+    font-size: 34px;
+    text-align:center;
+}
+@media screen and (max-width:990px){
+    .feature-background:before {
+        top: 20%;
+        width: 370px;
+        height: 370px;
+    }
+    .h2{
+        font-size: 33px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1240px){
+    .feature-background:before {
+    top: 12%;
+    width: 535px;
+    height: 535px;
+}
+.h2{
+    font-size: 33px;
+    line-height: 40px;
+}
+}
+@media screen and (max-width:700px){
+    .feature-background:before {
+        z-index: -1;
+    opacity: 50%;
+    top: 0%;
+    width: 400px;
+    height: 400px;
+    }
+    .block {
+         padding:20px 10px;
+        
+     }
+     .h2{
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
+.facebook, .instagram{
+    color: #5d50c6;
+    font-size: 26px;
+}
